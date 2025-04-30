@@ -41,7 +41,7 @@ class ObjectDetector:
                 continue
 
             # Flip the frame horizontally
-            #frame = cv2.flip(frame, 1)
+            frame = cv2.flip(frame, 1)
 
             # Process and draw detections
             frame = self.process_frame(frame)
